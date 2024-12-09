@@ -34,10 +34,11 @@ android {
 dependencies {
 
 
-    implementation (libs.androidx.camera.lifecycle)
     implementation (libs.barcode.scanning)
     implementation (libs.camera.core)
-    implementation (libs.androidx.camera.view)
+    implementation(libs.androidx.camera.view)
+    implementation (libs.androidx.camera.lifecycle)
+    implementation("androidx.camera:camera-camera2:1.3.0")
     implementation (libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.appcompat)
     implementation(libs.material)
